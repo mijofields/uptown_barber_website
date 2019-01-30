@@ -51,3 +51,57 @@ li {
     height: 100%;
     object-fit: fill;
 }
+
+.yellow {
+    background-color: yellow;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.blue {
+    background-color: lightskyblue;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.green {
+    background-color: yellowgreen;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.bordergreen {
+    border-style: solid;
+    border-color: green;
+}
+
+.borderred {
+    border-style: solid;
+    border-color: red;
+}
+
+.borderblack {
+    border-style: groove;
+    border-color: black;
+}
+
+.borderinset {
+    border-style: inset;
+    border-color: gray;
+}
+
+.congruent {
+    background-image: url("../public/congruent_outline.png")
+}
+
+.morocco {
+    background-image: url("../public/morocco.png");
+    border-top-color: black;
+    border-top-style: solid;
+}
