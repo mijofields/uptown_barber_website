@@ -32,10 +32,16 @@
     width: 100% !important;
     height: 100% !important;
 }
-
 li {
     list-style-image: url("../public/favicon-16x16.png");
+ 
+    
 }
+
+li:hover {
+    font-weight: bolder;
+}
+
 
 .frame {
     border-style: inset;
@@ -58,6 +64,7 @@ li {
     border-bottom-color: black;
     border-top-style: solid;
     border-bottom-style: solid;
+    border-width: 1px;
 }
 
 .blue {
@@ -66,6 +73,29 @@ li {
     border-bottom-color: black;
     border-top-style: solid;
     border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.mural {
+    background-image: url(../public/images/mural.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.station {
+    background-image: url(../public/images/STYLIST\ STATIONS.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 
 .green {
@@ -74,6 +104,16 @@ li {
     border-bottom-color: black;
     border-top-style: solid;
     border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.pink {
+    background-color:pink;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 
 .bordergreen {
