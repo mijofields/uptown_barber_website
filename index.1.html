@@ -15,270 +15,225 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
   </head>
-  <body class="has-navbar-fixed-top">
 
-<!--Navbar with burger and dropdown for Bios navbar-fixed-top doesn't seem to work-->
+<body class="has-navbar-fixed-top">
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <div class="navbar-item">
-      <img src="public/UB_Small.jpg">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <img src="public/UB_Small.jpg">
+      </div>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+        <a class="navbar-item" href="#about">about us</a>
+        <a class="navbar-item" href='#services'>services</a>
 
-  <div id="navMenu" class="navbar-menu">
-    <div class="navbar-end">
-    <a class="navbar-item" href="#"><i class="fab fa-instagram fa-lg"></i></a>
-    <a class="navbar-item" href="#about">about us</a>
-      <a class="navbar-item" href='#services'>services</a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link" href='#bios'>bios</a>
-
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="#jacob">Jacob Rios</a>
-          <a class="navbar-item" href="#abarber">A Barber</a>
-          <a class="navbar-item" href="#momma">Yo Momma</a>
-          <a class="navbar-item" href="#mikey">Mikey F</a>
-          <hr class="navbar-divider">
+            <a class="navbar-item" href="#jacob">Jacob Rios</a>
+            <a class="navbar-item" href="#abarber">A Barber</a>
+            <a class="navbar-item" href="#momma">Yo Momma</a>
+            <a class="navbar-item" href="#mikey">Mikey F</a>
+            <hr class="navbar-divider">
         </div>
       </div>
+      </div>
+        <a class="navbar-item" href='#location'>location</a>
     </div>
-      <a class="navbar-item" href='#location'>location</a>
-    </div>
-</nav>
+  </nav>
 
-    <section class="hero congruent">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-centered">
-            <div class="column is-6-desktop">
 
-              <img src="public/UB_Secondary02.jpg">
-
-                  <br>
-                  <i class="fa fa-phone has-text-white"> 817-909-3112</i><br>
-                  <i class="fa fa-calendar has-text-white"> Tuesday - Sunday: 9am to 5pm</i><br>
-                  <a href='#location'><i class="fa fa-map-marker-alt has-text-white"> 3424 Oaklawn Ave, Dallas 75219</i></a><br>
-            </div>
-
-  
-          
-            </div>
+  <section class="hero congruent">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-6-desktop">
+            <img src="public/UB_Secondary02.jpg"><br>                  
+            <i class="fa fa-phone has-text-white"> 817-909-3112</i><br>
+            <i class="fa fa-calendar has-text-white"> Tuesday - Sunday: 9am to 5pm</i><br>
+            <a href='#location'><i class="fa fa-map-marker-alt has-text-white"> 3424 Oaklawn Ave, Dallas 75219</i></a><br>
+          </div>          
         </div>
-      </div> 
-    </section>
+      </div>
+    </div> 
+  </section>
 
 
   <section class="section yellow" id="about">
     <div class="container">
-        <div class="columns">
- 
+        <div class="columns"> 
           <div class="column is-8-desktop is-offset-2-desktop">
             <div class="content">
-               <div class="old_heading">about us:</div>
-                      
+               <div class="old_heading">about us:</div>                      
                 <h5>
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra vulputate tortor sit amet ultrices. 
                  Ut hendrerit rutrum ex, sed dapibus tortor vulputate ac. Integer fringilla, leo vitae mollis tristique, lacus mauris semper turpis, 
                  a auctor odio nisl sed nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum blandit lorem non efficitur. 
                  Curabitur lacinia odio in porta porta. Aenean a orci ac sem mollis convallis in vestibulum turpis. Curabitur sit amet dignissim arcu. 
                  Nunc vel massa eget libero placerat bibendum a aliquam justo. Nulla facilisi. Donec congue consectetur risus sit amet ultrices.
-                </h5> 
-         
-            </div>
-            
-  
-          </div>
-          
- 
+                </h5>         
+            </div>        
+          </div>       
         </div>
 
-     
         <div class="columns">
-            <div class="column is-4-desktop is-offset-4-desktop" >
-                <div class="carousel">
-                    <div>
-                    <img src="public/images/STYLIST STATIONS.JPG" alt="Barber1">
-                    </div>
-                    <div>
-                    <img src="public/images/599136-unsplash.jpg" alt="Barber2">
-                    </div>
-                    <div>
-                    <img src="public/images/PERSPECTIVE SHOT.JPG" alt="Barber3">
-                    </div>
-                     <div>
-                    <img src="public/images/585770-unsplash.jpg" alt="Barber4">
-                    </div>
-            
-
-                </div>
+          <div class="column is-4-desktop is-offset-4-desktop" >
+            <div class="carousel">
+              <div>
+                <img src="public/images/STYLIST STATIONS.JPG" alt="Barber1">
+              </div>
+              <div>
+                <img src="public/images/599136-unsplash.jpg" alt="Barber2">
+              </div>
+              <div>
+                <img src="public/images/PERSPECTIVE SHOT.JPG" alt="Barber3">
+              </div>
+              <div>
+                <img src="public/images/585770-unsplash.jpg" alt="Barber4">
+              </div>         
             </div>
-            
+          </div>            
         </div>
- 
+
     </div>
   </section>
 
-
-
   <section class="section" id="services">
     <div class="container">
-
-        <div class="columns">
- 
-          <div class="column is-4-desktop is-offset-2-desktop">
-            <div class="content">
-               <div class="old_heading">services:</div>
-
-               <ul>
+      <div class="columns">
+        <div class="column is-4-desktop is-offset-2-desktop">
+          <div class="content">
+            <div class="old_heading">services:</div>
+              <ul>
                 <li><strong>Haircut 1 - $25:</strong> some explanation about the haircut</li>
                 <li><strong>Haircut 2 - $30:</strong> more description about this haircut</li>
                 <li><strong>Haircut 3 - $35:</strong> just another haircut</li>
                 <li><strong>Shave Only - $10:</strong> only a shave, beardy </li>
-               </ul> 
+              </ul>
+          </div>
+        </div>
+        <div class="column is-4-tablet" >
+          <img src="public/images/chair.jpg" alt="Barber Chair">    
+        </div>
+      </div>  
+    </div>
+  </section>
 
-    </div>
-    </div>
-    <div class="column is-4-tablet" >
-    <img src="public/images/chair.jpg" alt="Barber Chair">
-    
-    </div>
-    </div>
-  
-    </div>
-    </section>
 
-      <section class="section pink" id="bios">
+  <section class="section pink" id="bios">
     <div class="container">
 
-        <div class="columns">
- 
+        <div class="columns"> 
           <div class="column is-4-desktop is-offset-2-desktop">
             <div class="content">
                <div class="old_heading">bios:</div>
-            </div>   
-    </div>
+            </div> 
+          </div>
+        </div>
 
-    </div>
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
 
-<div class="column is-8-desktop is-offset-2-desktop">
-<div class="tile is-ancestor">
+              <article id="jacob" class="tile is-child box bordergreen">
+                <p class="old_heading">jacob rios</p>
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/640/480?image=1074">
+                </figure><br>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+              </article>
+            </div>
 
-  <div class="tile is-parent">
-    <article id="jacob" class="tile is-child box bordergreen">
-      <p class="old_heading">jacob rios</p>
-       <figure class="image is-4by3">
-            <img src="https://picsum.photos/640/480?image=1074">
-          </figure>
-          <br>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
-    </article>
-  </div>
-
-  <div class="tile is-parent">
-    <article id="barber" class="tile is-child box borderred">
-      <p class="old_heading">a barber</p>
-      <figure class="image is-4by3">
-            <img src="https://picsum.photos/640/480?image=1062">
-          </figure>
-          <br>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
-    </article>
-  </div>
-</div>
-</div>
+            <div class="tile is-parent">
+              <article id="barber" class="tile is-child box borderred">
+                <p class="old_heading">a barber</p>
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/640/480?image=1062">
+                </figure><br>     
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
 <!-- end of first row-->
-<div class="column is-8-desktop is-offset-2-desktop">
-<div class="tile is-ancestor">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article id="momma" class="tile is-child box borderblack">
+                <p class="old_heading">yo momma</p>
+                <figure class="image is-4by3">
+                  <img src="https://picsum.photos/640/480?image=1024">
+                </figure><br>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+              </article>
+            </div>
 
-  <div class="tile is-parent">
-    <article id="momma" class="tile is-child box borderblack">
-      <p class="old_heading">yo momma</p>
-       <figure class="image is-4by3">
-            <img src="https://picsum.photos/640/480?image=1024">
-          </figure>
-          <br>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
-    </article>
-  </div>
-
-  <div class="tile is-parent">
-    <article id="mikey" class="tile is-child box borderinset">
-      <p class="old_heading">mikey f</p>
-       <figure class="image is-4by3">
-            <img src="https://picsum.photos/640/480?image=646">
-          </figure>
-          <br>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
-    </article>
-  </div>
-</div>
-</div>
+            <div class="tile is-parent">
+              <article id="mikey" class="tile is-child box borderinset">
+                <p class="old_heading">mikey f</p>
+                  <figure class="image is-4by3">
+                    <img src="https://picsum.photos/640/480?image=646">
+                  </figure><br>          
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                  </div>
+              </article>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
 <!--end of second row-->
 
-
-
-
-
-
-  </div>
-    </section>
-
-    <section class="section mural" id="location">
+  <section class="section mural" id="location">
     <div class="container">
-
-        <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <div class="content has-text-white">
-               <div class="old_heading">location:</div>
-               <i class="fa fa-map-marker-alt has-text-white"> 3234 Oaklawn Ave, Dallas, TX 75219</i>
-    
-    <div class="google-maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.2753101788353!2d-96.80786748481711!3d32.81146958096166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9ff20b5e5a39%3A0xd79c9c93883af6ee!2sUptown+Barbershop!5e0!3m2!1sen!2sus!4v1553101555919" 
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    </div>
-    </section>
-
-   
- 
-
-    <footer class="footer has-text-centered">
-      <div class="container">
-         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <p>
-              <strong class="has-text-weight-semibold">
-                <a href="http://www.mikefields.info" target="_blank">Mike Fields&copy 2019</a>
-              </strong>
-            </p>
-       
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content has-text-white">
+            <div class="old_heading">location:</div>
+            <i class="fa fa-map-marker-alt has-text-white"> 3234 Oaklawn Ave, Dallas, TX 75219</i>
+            <div class="google-maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.2753101788353!2d-96.80786748481711!3d32.81146958096166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9ff20b5e5a39%3A0xd79c9c93883af6ee!2sUptown+Barbershop!5e0!3m2!1sen!2sus!4v1553101555919" 
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    </div>
+  </section>
+ 
+  <footer class="footer has-text-centered">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <p> <strong class="has-text-weight-semibold">
+              <a href="http://www.mikefields.info" target="_blank">Mike Fields&copy 2019</a>
+              </strong>
+          </p>       
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
   <script src="lib/slick.min.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" src="lib/main.js"></script>
-  </body>
+  <script type="text/javascript" src="lib/main.js"></script>
+
+</body>
 </html>
